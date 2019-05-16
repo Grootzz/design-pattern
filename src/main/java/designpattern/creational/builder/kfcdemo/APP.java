@@ -9,7 +9,7 @@ public class APP {
         KFCWaiter waiter = new KFCWaiter(builder);
 
         // 客户接收到的具体方案
-//        Meal meal = waiter.contract();
-//        System.out.println(meal);
+        Meal meal = waiter.contract();
+        System.out.println(meal);
     }
 }
