@@ -13,5 +13,9 @@ public class APP {
         // 获取rectangle对象
         Shape rectangle = ShapeFactory.getShape("rectangle");
         rectangle.draw();
+
+        /** 使用反射创建对象 */
+        Shape shape = ShapeFactory01.getShape(CircleShape.class);
+        shape.draw();
     }
 }
