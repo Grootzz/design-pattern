@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config>
+    <className>designpattern.structural.bridge.Blue</className>
+    <className>designpattern.structural.bridge.SmallPen</className>
+</config>
