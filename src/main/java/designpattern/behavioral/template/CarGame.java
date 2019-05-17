@@ -1,5 +1,8 @@
 package designpattern.behavioral.template;
 
+/**
+ * 实现类
+ */
 public class CarGame extends Game {
     @Override
     void start() {

@@ -1,5 +1,8 @@
 package designpattern.behavioral.template;
 
+/**
+ * 实现类
+ */
 public class ShotGame extends Game {
     @Override
     void start() {
