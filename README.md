@@ -2,7 +2,10 @@
 
 本项目包含23中设计模式的简单示例。
 
-## 创建型模式
+- [创建型模式](https://github.com/Grootzz/design-pattern/blob/master/src/main/java/designpattern/creational/%E5%88%9B%E5%BB%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+
+## [创建型模式](https://github.com/Grootzz/design-pattern/blob/master/src/main/java/designpattern/creational/%E5%88%9B%E5%BB%BA%E5%9E%8B%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md)
+
 这些设计模式提供了一种在创建对象的同时隐藏创建逻辑的方式，而不是使用 new 运算符直接实例化对象。这使得程序在判断针对某个给定实例需要创建哪些对象时更加灵活。
 
 - 工厂模式（Factory Pattern）
