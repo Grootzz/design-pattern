@@ -1,5 +1,8 @@
-package designpattern.behavioral.observer;
+package designpattern.behavioral.observer.common;
 
+/**
+ * 观察者模式：通用逻辑
+ */
 public class Client {
     public static void main(String[] args) {
         // 创建主题

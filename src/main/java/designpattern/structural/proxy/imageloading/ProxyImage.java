@@ -1,4 +1,4 @@
-package designpattern.structural.proxy;
+package designpattern.structural.proxy.imageloading;
 
 public class ProxyImage implements Image{
 

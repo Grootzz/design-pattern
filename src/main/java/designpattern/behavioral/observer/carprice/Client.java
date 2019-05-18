@@ -1,7 +1,7 @@
 package designpattern.behavioral.observer.carprice;
 
 /**
- * 观察者模式
+ * 观察者模式：通过自定义观察者和主题实现
  */
 public class Client {
     public static void main(String[] args) {

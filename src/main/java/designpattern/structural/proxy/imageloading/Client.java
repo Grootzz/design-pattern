@@ -1,5 +1,8 @@
-package designpattern.structural.proxy;
+package designpattern.structural.proxy.imageloading;
 
+/**
+ * 代理模式：图片加载
+ */
 public class Client {
     public static void main(String[] args) {
         Image image = new ProxyImage("test_10mb.jpg");

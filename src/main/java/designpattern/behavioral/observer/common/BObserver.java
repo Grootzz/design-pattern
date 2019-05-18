@@ -1,4 +1,4 @@
-package designpattern.behavioral.observer;
+package designpattern.behavioral.observer.common;
 
 public class BObserver implements Observer {
     @Override
