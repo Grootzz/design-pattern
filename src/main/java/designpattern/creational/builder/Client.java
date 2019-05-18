@@ -1,6 +1,6 @@
 package designpattern.creational.builder;
 
-public class App {
+public class Client {
     public static void main(String[] args) {
         Builder builder = new ConcreteBuilder();
         Director director = new Director(builder);
