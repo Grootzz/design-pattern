@@ -1,6 +1,6 @@
 package designpattern.creational.factorymethod;
 
-public class APP {
+public class Client {
     public static void main(String[] args) {
         Factory factory = new CircleFactory();
         Shape circle = factory.getShape("CIRCLE");
