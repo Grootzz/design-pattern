@@ -1,6 +1,6 @@
 package designpattern.creational.abstractfactory;
 
-public class APP {
+public class Client {
     public static void main(String[] args) {
         // 创建一个工厂用于生产产品的各个要素
         Factory intelFactory = new IntelFactory();
