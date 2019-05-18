@@ -1,4 +1,4 @@
-package designpattern.behavioral.template;
+package designpattern.behavioral.template.game;
 
 /**
  * 模板类
