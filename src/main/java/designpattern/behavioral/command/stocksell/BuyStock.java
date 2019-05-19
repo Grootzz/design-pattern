@@ -1,4 +1,4 @@
-package designpattern.behavioral.command;
+package designpattern.behavioral.command.stocksell;
 
 public class BuyStock implements Order{
 

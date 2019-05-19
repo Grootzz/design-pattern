@@ -5,7 +5,10 @@ import org.xml.sax.SAXException;
 import javax.xml.parsers.ParserConfigurationException;
 import java.io.IOException;
 
-public class APP {
+/**
+ * 桥接模式
+ */
+public class Client {
     public static void main(String[] args) throws SAXException, IllegalAccessException, IOException, InstantiationException, ParserConfigurationException, ClassNotFoundException {
         Color color;
         Pen pen;

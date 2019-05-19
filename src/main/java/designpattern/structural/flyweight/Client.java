@@ -1,6 +1,9 @@
 package designpattern.structural.flyweight;
 
-public class APP {
+/**
+ * 享元模式
+ */
+public class Client {
 
     private static String colors[] = {"Red", "Green", "Blue", "White", "Black"};
 

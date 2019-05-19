@@ -1,6 +1,6 @@
-package designpattern.behavioral.command;
+package designpattern.behavioral.command.stocksell;
 
-public class App {
+public class Client {
 
     public static void main(String[] args) {
 
