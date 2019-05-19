@@ -8,15 +8,19 @@
 
 **目录说明**
 
->├─java
->│  └─designpattern
->│      ├─behavioral：行为型设计模式示例
->│      ├─creational：创建型设计模式示例
->│      └─structural：结构型设计模式示例
->└─resources
->    ├─doc：各种设计模式详细文档说明
->    ├─img：设计模式的UML
->    └─xml：设计模式示例使用到的xml资源
+```
+├─java
+│  └─designpattern
+│      ├─behavioral：行为型设计模式示例
+│      ├─creational：创建型设计模式示例
+│      └─structural：结构型设计模式示例
+└─resources
+    ├─doc：各种设计模式详细文档说明
+    ├─img：设计模式的UML
+    └─xml：设计模式示例使用到的xml资源
+```
+
+
 
 ## 创建型模式
 
