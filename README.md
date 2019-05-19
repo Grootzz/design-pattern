@@ -20,8 +20,6 @@
     └─xml：设计模式示例使用到的xml资源
 ```
 
-
-
 ## 创建型模式
 
 创建型模式(Creational Pattern)对类的实例化过程进行了抽象，能够将软件模块中对象的创建和对象的使用分离。为了使软件的结构更加清晰，外界对于这些对象只需要知道它们共同的接口，而不清楚其具体的实现细节，使整个系统的设计更加符合单一职责原则。创建型模式隐藏了类的实例的创建细节，通过隐藏对象如何被创建和组合在一起达到使整个系统独立的目的。
@@ -66,9 +64,13 @@
 
 - 桥接模式（Bridge Pattern）
 
+  将抽象部分与实现部分分离，使它们都可以独立的变化。
+
 - 过滤器模式（Filter、Criteria Pattern）
 
 - 组合模式（Composite Pattern）
+
+  将对象组合成树形结构以表示"部分-整体"的层次结构。组合模式使得用户对单个对象和组合对象的使用具有一致性。
 
 - [装饰器模式（Decorator Pattern）](https://github.com/Grootzz/design-pattern/blob/master/src/main/resources/doc/structural/装饰器模式.md)
 
@@ -79,6 +81,8 @@
   为子系统中的一组接口提供一个一致的界面，外观模式定义了一个高层接口，这个接口使得这一子系统更加容易使用。
 
 - 享元模式（Flyweight Pattern）
+
+  运用共享技术有效地支持大量细粒度的对象。
 
 - [代理模式（Proxy Pattern）](https://github.com/Grootzz/design-pattern/blob/master/src/main/resources/doc/structural/代理模式.md)
 
@@ -95,17 +99,27 @@
 
 - 解释器模式（Interpreter Pattern）
 
+  种模式实现了一个表达式接口，该接口解释一个特定的上下文。这种模式被用在 SQL 解析、符号处理引擎等。
+
 - 迭代器模式（Iterator Pattern）
+
+  提供一种方法顺序访问一个聚合对象中各个元素, 而又无须暴露该对象的内部表示。
 
 - 中介者模式（Mediator Pattern）
 
+  用一个中介对象来封装一系列的对象交互，中介者使各对象不需要显式地相互引用，从而使其耦合松散，而且可以独立地改变它们之间的交互。
+
 - 备忘录模式（Memento Pattern）
+
+  在不破坏封装性的前提下，捕获一个对象的内部状态，并在该对象之外保存这个状态。
 
 - [观察者模式（Observer Pattern）](https://github.com/Grootzz/design-pattern/blob/master/src/main/resources/doc/behavioral/观察者模式.md)
 
   定义了对象间的一种一对多依赖关系，使得每当一个对象状态发生改变时，其相关依赖对象皆得到通知并被自动更新。观察者模式又叫做发布-订阅（Publish/Subscribe）模式、模型-视图（Model/View）模式、源-监听器（Source/Listener）模式或从属者（Dependents）模式。
 
 - 状态模式（State Pattern）
+
+  允许对象在内部状态发生改变时改变它的行为，对象看起来好像修改了它的类。
 
 - 空对象模式（Null Object Pattern）
 
@@ -118,3 +132,5 @@
   定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
 
 - 访问者模式（Visitor Pattern）
+
+  主要将数据结构与数据操作分离。
