@@ -1,4 +1,4 @@
-package designpattern.structural.decorator;
+package designpattern.structural.decorator.shape;
 
 public class DecoratorPatternDemo {
     public static void main(String[] args) {

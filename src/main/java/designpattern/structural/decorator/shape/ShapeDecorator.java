@@ -1,4 +1,4 @@
-package designpattern.structural.decorator;
+package designpattern.structural.decorator.shape;
 
 /**
  * 实现了 Shape 接口的抽象装饰类

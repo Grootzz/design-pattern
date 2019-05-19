@@ -1,4 +1,4 @@
-package designpattern.structural.decorator;
+package designpattern.structural.decorator.shape;
 
 /**
  * 实现接口的实体类

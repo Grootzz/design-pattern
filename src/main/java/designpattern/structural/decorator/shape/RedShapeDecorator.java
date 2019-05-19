@@ -1,4 +1,4 @@
-package designpattern.structural.decorator;
+package designpattern.structural.decorator.shape;
 
 /**
  * 具体的装饰类
