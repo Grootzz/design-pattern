@@ -62,14 +62,31 @@
 这些设计模式特别关注对象之间的通信。
 
 - 责任链模式（Chain of Responsibility Pattern）
+
 - 命令模式（Command Pattern）
+
 - 解释器模式（Interpreter Pattern）
+
 - 迭代器模式（Iterator Pattern）
+
 - 中介者模式（Mediator Pattern）
+
 - 备忘录模式（Memento Pattern）
+
 - 观察者模式（Observer Pattern）
+
+  定义了对象间的一种一对多依赖关系，使得每当一个对象状态发生改变时，其相关依赖对象皆得到通知并被自动更新。观察者模式又叫做发布-订阅（Publish/Subscribe）模式、模型-视图（Model/View）模式、源-监听器（Source/Listener）模式或从属者（Dependents）模式。
+
 - 状态模式（State Pattern）
+
 - 空对象模式（Null Object Pattern）
+
 - 策略模式（Strategy Pattern）
+
+  定义一系列算法，将每一个算法封装起来，并让它们可以相互替换。策略模式让算法独立于使用它的客户而变化，也称为政策模式(Policy)。
+
 - 模板模式（Template Pattern）
+
+  定义一个操作中的算法的骨架，而将一些步骤延迟到子类中。模板方法使得子类可以不改变一个算法的结构即可重定义该算法的某些特定步骤。
+
 - 访问者模式（Visitor Pattern）

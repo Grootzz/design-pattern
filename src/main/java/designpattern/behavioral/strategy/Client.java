@@ -1,15 +1,17 @@
 package designpattern.behavioral.strategy;
 
+/**
+ * 策略模式
+ * 策略模式通用模板
+ */
 public class Client {
-    // 使用 Context 来查看当它改变策略 Strategy 时的行为变化
     public static void main(String[] args) {
-        Context context = new Context(new AddStrategy());
-        System.out.println("f(10,5) = " + context.executeStrategy(10, 5));
+        Context context = new Context();
 
-        context = new Context(new SubstractStrategy());
-        System.out.println("f(10,5) = " + context.executeStrategy(10, 5));
+        context.setStrategy(new StrategyA());
+        context.executeStrategy();
 
-        context = new Context(new MultiplyStrategy());
-        System.out.println("f(10,5) = " + context.executeStrategy(10, 5));
+        context.setStrategy(new StrategyB());
+        context.executeStrategy();
     }
 }

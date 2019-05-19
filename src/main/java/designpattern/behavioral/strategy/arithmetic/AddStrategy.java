@@ -1,4 +1,4 @@
-package designpattern.behavioral.strategy;
+package designpattern.behavioral.strategy.arithmetic;
 
 public class AddStrategy implements Strategy {
 
