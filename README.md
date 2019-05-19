@@ -134,3 +134,13 @@
 - 访问者模式（Visitor Pattern）
 
   主要将数据结构与数据操作分离。
+
+## 参考
+
+- <https://design-patterns.readthedocs.io/zh_CN/latest/index.html>
+
+- <https://www.runoob.com/design-pattern/design-pattern-tutorial.html>
+- <https://javadoop.com/post/design-pattern#toc4>
+- <https://blog.csdn.net/hewei0241/article/details/7674450>
+- <https://juejin.im/entry/5700b9732e958a005920ec19>
+- <https://blog.csdn.net/briblue/article/details/73928350>
