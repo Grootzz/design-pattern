@@ -1,9 +1,10 @@
-package designpattern.structural.facade;
+package designpattern.structural.facade.shape;
 
 /**
- * 客户端
+ * 外观模式
+ * 形状示例
  */
-public class APP {
+public class Client {
     public static void main(String[] args) {
         ShapeMaker maker = new ShapeMaker();
 

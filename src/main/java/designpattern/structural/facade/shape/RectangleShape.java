@@ -1,4 +1,4 @@
-package designpattern.structural.facade;
+package designpattern.structural.facade.shape;
 
 /**
  * 实现接口的实体类

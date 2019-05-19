@@ -1,4 +1,4 @@
-package designpattern.structural.facade;
+package designpattern.structural.facade.shape;
 
 public class ShapeMaker {
     private Shape circle;
